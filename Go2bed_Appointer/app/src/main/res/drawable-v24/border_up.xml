@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 给column目录添加上侧边框线-->
+
+    <item>
+        <shape>
+            <!--边框颜色矩形-->
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+    <item
+        android:top="1.5dp">
+        <shape>
+            <!--背景色-->
+            <solid android:color="#7fab97c6"/>
+        </shape>
+    </item>
+</layer-list>

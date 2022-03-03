@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:queryHint="Please enter here..." />
+
+        <TextView
+            android:id="@+id/info_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Reserved Information:"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <ListView
+            android:id="@+id/booklist_stu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
